@@ -1,0 +1,86 @@
+/* 表单样式 */
+div.form {
+  /* height: 3.63rem; */
+  /* color: #c8c6c4 */
+  color: #ccc;
+
+  background:rgba(232,134,47,0.3);
+  background:rgba(173,216,230,0.3);
+  /* #ADD8E6 */
+  /*##f7cb4d*/
+}
+
+div.form-container {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    align-items: center;
+    /* opacity: .5; */
+}
+
+div.form-box {
+  margin: .15rem;
+  padding: .15rem;
+  background: rgba(255, 0, 0, 0.25);
+  background: rgba(255, 0, 0, 0.35);
+  padding-bottom: .3rem
+}
+
+input {
+  display: block;
+  width: calc(100% - 1.7rem);
+  font-size: .2rem;
+  padding: .1rem;
+  margin: 0 auto;
+  text-align: center;
+  /* opacity: 0; */
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: .01rem solid #c8c6c4;
+  color: #ddd;
+  /* height: .3rem; */
+  outline-style:none;
+}
+
+
+
+/* 火狐不好使 */
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 10rem rgb( 255, 195, 0 ) inset !important;
+}
+/* #e8d764 */
+
+button {
+  font-size: .2rem !important;
+  border: none;
+  /* display: inline-block; */
+  /* display: block; */
+  margin: .25rem auto;
+  /* color:#333; */
+  color:darkred;
+
+  /* background-color: orange; */
+  background:rgba(232,134,47,.7);
+  font-size: .23rem;
+  padding: .05rem .25rem;
+  cursor: pointer;
+}
+a.btn {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0);
+  color: darkorange;
+  padding: 0;
+  margin: 0;
+/*   display: inline-block; */
+}
+
+.btn-container {
+  text-align:center;
+  font-size:.05rem !important;
+}
+
+.form-field {
+  font-size:.15rem !important;
+}
+/* .ms-bgColor-gray200{
+  color: #fff;
+} */
