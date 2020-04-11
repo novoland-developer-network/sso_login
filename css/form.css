@@ -5,7 +5,7 @@ div.form {
   color: #ccc;
 
   background:rgba(232,134,47,0.3);
-  background:rgba(173,216,230,0.3);
+  /*background:rgba(173,216,230,0.3);*/
   /* #ADD8E6 */
   /*##f7cb4d*/
 }
@@ -21,7 +21,7 @@ div.form-box {
   margin: .15rem;
   padding: .15rem;
   background: rgba(255, 0, 0, 0.25);
-  background: rgba(255, 0, 0, 0.35);
+  /*background: rgba(255, 0, 0, 0.35);*/
   padding-bottom: .3rem
 }
 
