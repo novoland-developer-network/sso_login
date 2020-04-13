@@ -19,10 +19,9 @@ div.form-container {
 
 div.form-box {
   margin: .15rem;
-  padding: .15rem;
   background: rgba(255, 0, 0, 0.25);
   /*background: rgba(255, 0, 0, 0.35);*/
-  padding-bottom: .3rem
+  padding: .15rem .15rem .3rem;
 }
 
 input {
@@ -45,7 +44,7 @@ input {
 
 /* 火狐不好使 */
 input:-webkit-autofill {
-  box-shadow: 0 0 0px 10rem rgb( 255, 195, 0 ) inset !important;
+  box-shadow: 0 0 0 10rem rgb( 255, 195, 0 ) inset !important;
 }
 /* #e8d764 */
 
@@ -60,7 +59,6 @@ button {
 
   /* background-color: orange; */
   background:rgba(232,134,47,.7);
-  font-size: .23rem;
   padding: .05rem .25rem;
   cursor: pointer;
 }

@@ -1,75 +1,75 @@
 html {
-  font-size:625%;
-  font-family: 'Microsoft Yahei UI Light', Verdana, Simsun, 'Segoe Script', Tahoma, Arial, sans-serif;
+    font-size: 625%;
+    font-family: 'Microsoft Yahei UI Light', Verdana, Simsun, 'Segoe Script', Tahoma, Arial, sans-serif;
 }
 
 /* 登录 */
 body, body.signin {
-  z-index: -999;
-  background: url(../images/blood-moon.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    z-index: -999;
+    background: url(http://cdn.doylee.cn/images/blood-moon.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-  height: 100%;
+    height: 100%;
 }
 
 /* 注册 */
 body.signup {
-  background-image: image(../images/war-bg.jpg) !important;
+    background-image: url(http://cdn.doylee.cn/images/war-bg.jpg) !important;
 }
 
 html, body, div.ms-Grid, div.ms-Grid-row {
-  height: 100%;
+    height: 100%;
 }
 
 h1.title {
-  font-size: 0.28rem;
-  color: darkorange;
+    font-size: 0.28rem;
+    color: darkorange;
 }
 
 .bgColor-away {
-  background-color: #b7472a;
+    background-color: #b7472a;
 }
 
-footer{
-  /* background-color: #ccc; */
-  font-size: .18rem;
-  color: white;
-  opacity: .5;
-  position:fixed;
-  width: 100%;
-  text-align: center;
-  bottom:0;
-  padding-bottom:.1rem;
+footer {
+    /* background-color: #ccc; */
+    font-size: .18rem;
+    color: white;
+    opacity: .5;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: .1rem;
 }
 
 footer a {
-  text-decoration: none;
-  color: #008000;
+    text-decoration: none;
+    color: #008000;
 }
 
-/**css样式*/
-/* .input{
-    width:200px;
-    height:24px;
-    line-height:24px;
-    font-size:24px;
-    font-weight: 24;
-    padding:5px 8px;
-    border:1px solid #ddd;
+@media only screen and (max-width: 800px) {
+    .mobile-xxx {
+        display: block;
+    }
+
+    footer {
+        padding-bottom: 0 !important;
+    }
 }
-.input:empty::before {
-    content: attr(placeholder);
-} */
 
-@media only screen and (max-width:800px) {
-  .mobile-xxx {
-    display: block;
-  }
+.hide {
+    display: none;
+}
 
-  footer {
-    padding-bottom:0!important;
-  }
+/* 遮罩 */
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
 }
