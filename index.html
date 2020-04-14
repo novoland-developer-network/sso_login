@@ -1,118 +1,83 @@
 <!DOCTYPE html>
 <html lang="zh-Hans" dir="ltr">
-<head>
-  <meta charset="utf-8"/>
-  <title>九州第一群登录</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdn.doylee.cn/css/normalize.css">
-  <link
-      rel="stylesheet"
-      href="https://cdn.doylee.cn/css/fabric.min.css"
-  />
-  <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/form.css">
-  <!-- 兼容html5/css3 -->
-  <!--[if lt IE 9]>
-  <script src="https://cdn.doylee.cn/js/html5shiv.min.js"></script>
-  <script src="https://cdn.doylee.cn/js/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<section class="preload">
-  <!-- 资源预加载 -->
-  <img id="bgImage" class="hide" src="https://cdn.doylee.cn/images/blood-moon.jpg" alt="">
-  <!-- 加载的遮罩 -->
-  <div class="mask ms-bgColor-neutralDark"></div>
-</section>
-
-<div class="ms-Grid hide" id="form-section">
-  <div class="ms-Grid-row form-container">
-    <div
-        class="form
-          bgColor-away ms-scaleDownIn100
-          ms-Grid-col ms-sm12 ms-md10 ms-mdPush1 ms-lg8 ms-lgPush2 ms-xl6 ms-xlPush3 ms-xxl4 ms-xxlPush4 ms-depth-64"
-    >
-      <div class=" ms-depth-64 form-box" style="text-align:center">
-        <!-- 头部 -->
-        <div class="loginHeader">
-          <h1 class="title">登录</h1>
-        </div>
-        <!-- 表单 -->
-        <div class="form-field">
-          <label><input id="username" type="text" name="username" value="" placeholder="用户名"></label>
-          <label><input id="password" type="password" name="password" value="" placeholder="密码"></label>
-          <p>
-            没有账户？
-            <a rel="prefetch" class="btn"
-               href="https://novoland.doylee.cn/user/index/signin.html">创建一个</a>
-          </p>
-          <button class="btn" type="submit">下一步</button>
+  <head>
+    <meta charset="utf-8"/>
+    <title>九州第一群登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://cdn.doylee.cn/css/normalize.css">
+    <link
+		    rel="stylesheet"
+		    href="https://cdn.doylee.cn/css/fabric.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.doylee.cn/css/loaders-0.1.2.css">
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/form.css">
+	
+	  <!-- 兼容html5/css3 -->
+	  <!--[if lt IE 9]>
+	  <script src="https://cdn.doylee.cn/js/html5shiv.min.js"></script>
+    <script src="https://cdn.doylee.cn/js/respond.min.js"></script>
+	  <![endif]-->
+  </head>
+  <body>
+  
+    <!-- 正文 -->
+    <div class="ms-Grid hide" id="form-section">
+      <div class="ms-Grid-row form-container">
+        <div
+		        class="form
+              bgColor-away ms-scaleDownIn100
+              ms-Grid-col ms-sm12 ms-md10 ms-mdPush1 ms-lg8 ms-lgPush2 ms-xl6 ms-xlPush3 ms-xxl4 ms-xxlPush4 ms-depth-64"
+        >
+          <div class=" ms-depth-64 form-box" style="text-align:center">
+            <!-- 头部 -->
+            <div class="loginHeader">
+              <h1 class="title">登录</h1>
+            </div>
+            <!-- 表单 -->
+            <div class="form-field">
+              <label><input id="username" type="text" name="username" value="" placeholder="用户名"></label>
+              <label><input id="password" type="password" name="password" value="" placeholder="密码"></label>
+              <p>
+                没有账户？
+                <a rel="prefetch" class="btn"
+                   href="https://novoland.doylee.cn/user/index/signin.html">创建一个</a>
+              </p>
+              <button class="btn" type="submit">下一步</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<footer>
-  <p>
-    本站由
-    <span class="mobile-xxx">平行宇宙·无限空间·前后端大神·
-        <a rel="prerender" href="https:http://erhe.fun" target="_blank">#三个逗号#</a>
-    </span>
-    玩命驱动。
-  </p>
-</footer>
+    <!-- 预加载和遮罩 -->
+    <section class="preload">
+      <!-- 资源预加载 -->
+      <img id="bgImage" class="hide" src="https://cdn.doylee.cn/images/blood-moon.jpg" alt="">
+      <!-- 加载的遮罩 -->
+      <div class="mask ms-bgColor-neutralDark">
+        <div class="loader-inner square-spin"></div>
+        <p class="ms-fontColor-orangeLight">广阔九州，大有可为</p>
+      </div>
+    </section>
 
-<script src="https://cdn.doylee.cn/js/jquery-3.5.min.js"></script>
-<script src="https://cdn.doylee.cn/layer/layer.js"></script>
-<script>
-  // 遮罩层和背景图/表单加载顺序
+    <!-- 页底 -->
+    <footer>
+      <p>
+        本站由
+        <span class="mobile-xxx">平行宇宙·无限空间·前后端大神·
+            <a rel="prerender" href="https:http://erhe.fun" target="_blank">#三个逗号#</a>
+        </span>
+        玩命驱动。
+      </p>
+    </footer>
+    
+    <script src="https://cdn.doylee.cn/js/jquery-3.5.min.js"></script>
+    <script src="https://cdn.doylee.cn/js/loaders-0.1.2.css.min.js"></script>
+    <script src="js/loadListener.js"></script>
+    <script src="js/adapter.js"></script>
   
-  // 需要直接执行
-  const template = $('#form-section').remove().removeClass('hide')
-  const index = layer.load(1)
-  $(function () {
-    // 如果有缓存，直接触发
-    if ($('#bgImage')[0].complete) {
-      $('.mask').hide()
-      layer.close(index)
-      $('body').prepend(template)
-    }
-
-    // 如果没有缓存，在加载成功之后再执行
-    $('img').on('load', function () {
-      $('.mask').hide()
-      layer.close(index)
-      $('body').prepend(template)
-    })
-  })
-
-</script>
-<script>
-  $(function () {
-    // 移动端输入时隐藏底部
-    if (/(iPhone|iPod|iOS|Android)/i.test(navigator.userAgent)) {
-      $('input').focus(function () {
-        $('footer').hide()
-      }).blur(function () {
-        $('footer').show()
-      })
-    }
-  })
-
-  // 安卓横屏时隐藏底部
-  function rotate() {
-    if (window.orientation === 90 || window.orientation === -90) {
-      if (/(Android)/i.test(navigator.userAgent)){
-        $("footer").hide()
-      }
-    }else{
-      $("footer").show()
-    }
-  }
-  window.addEventListener("load", rotate, false);
-  window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", rotate, false);
-
-</script>
-</body>
+  </body>
 </html>

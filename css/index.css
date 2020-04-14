@@ -24,6 +24,14 @@ html, body, div.ms-Grid, div.ms-Grid-row {
     height: 100%;
 }
 
+
+@font-face {
+    /* font-properties */
+    font-family: XingShu;
+    src:url('https://cdn.doylee.cn/fonts/yuwei_xingshu.ttf');
+}
+
+
 h1.title {
     font-size: 0.28rem;
     color: darkorange;
@@ -73,3 +81,25 @@ footer a {
     height: 100%;
     z-index: 999;
 }
+
+.mask p {
+    position: absolute;
+    top: calc(50% - 0.5rem / 2 + .05rem );
+    left: calc(50% - 1.15rem);
+    font-size: .25rem;
+    line-height: .25rem;
+    text-align: center;
+    display: inline-block;
+    font-family: "YuWei XingShu", cursive;
+}
+
+.loader-inner {
+    position: absolute;
+    top: calc(50% - 0.5rem / 2 - .5rem);
+    right: calc(50% - 0.5rem / 2);
+}
+
+.loader-inner > div {
+    background: #201f1e;
+}
+

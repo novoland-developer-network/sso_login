@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{fabric, form, html5shiv, index, jquery, jquery-1.0, jquery-1.2, jquery-1.4, jquery-1.5.2, jquery-1.6.4, jquery-1.7.2, jquery-3.5, jquery-3.5.0, layer, normalize, respond}" />
+    <file url="PROJECT" libraries="{darkmode-js@1.5.5, fabric, form, html5shiv, index, jquery, jquery-1.0, jquery-1.2, jquery-1.4, jquery-1.5.2, jquery-1.6.4, jquery-1.7.2, jquery-3.5, jquery-3.5.0, layer, loaders-0.1.2, loaders-0.1.2.css, normalize, respond}" />
   </component>
 </project>

@@ -24,5 +24,8 @@
     <orderEntry type="library" name="jquery-1.7.2" level="application" />
     <orderEntry type="library" name="jquery-1.6.4" level="application" />
     <orderEntry type="library" name="layer" level="application" />
+    <orderEntry type="library" name="loaders-0.1.2" level="application" />
+    <orderEntry type="library" name="loaders-0.1.2.css" level="application" />
+    <orderEntry type="library" name="darkmode-js@1.5.5" level="application" />
   </component>
 </module>
