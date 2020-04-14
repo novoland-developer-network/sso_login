@@ -6,7 +6,7 @@ html {
 /* 登录 */
 body, body.signin {
     z-index: -999;
-    background: url(http://cdn.doylee.cn/images/blood-moon.jpg) no-repeat center fixed;
+    background: url(https://cdn.doylee.cn/images/blood-moon.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@ body, body.signin {
 
 /* 注册 */
 body.signup {
-    background-image: url(http://cdn.doylee.cn/images/war-bg.jpg) !important;
+    background-image: url(https://cdn.doylee.cn/images/war-bg.jpg) !important;
 }
 
 html, body, div.ms-Grid, div.ms-Grid-row {
