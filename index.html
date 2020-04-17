@@ -37,16 +37,22 @@
               <h1 class="title">登录</h1>
             </div>
             <!-- 表单 -->
-            <div class="form-field">
-              <label><input id="username" type="text" name="username" value="" placeholder="用户名"></label>
-              <label><input id="password" type="password" name="password" value="" placeholder="密码"></label>
-              <p>
+            <form class="form-field" method="get" action="https://baidu.com">
+              <p class="message ms-fontColor-redDark"></p>
+              <label>
+                <input id="username" type="text" name="username" value="" placeholder="邮箱、手机号或用户名">
+              </label>
+	            <!--<label><input id="password" type="password" name="password" value="" placeholder="密码"></label>-->
+              <p style="padding-top: .03rem">
                 没有账户？
-                <a rel="prefetch" class="btn"
-                   href="https://novoland.doylee.cn/user/index/signin.html">创建一个</a>
+                <a rel="prefetch" class="btn ms-fontColor-white--hover"
+                   href="https://novoland.doylee.cn/user/index/signin.html">创建一个!</a>
               </p>
-              <button class="btn" type="submit">下一步</button>
-            </div>
+	            <!--<p>-->
+	            <!--  <button type="button" class="btn ms-fontColor-white&#45;&#45;hover">登录选项</button>-->
+	            <!--</p>-->
+              <button type="submit" class="ms-bgColor-orangeLighter--hover">下一步</button>
+            </form>
           </div>
         </div>
       </div>
@@ -78,6 +84,6 @@
     <script src="https://cdn.doylee.cn/js/loaders-0.1.2.css.min.js"></script>
     <script src="js/loadListener.js"></script>
     <script src="js/adapter.js"></script>
-  
+    <script src="js/errorCatcher.js"></script>
   </body>
 </html>

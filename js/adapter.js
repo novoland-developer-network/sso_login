@@ -2,7 +2,6 @@ $(function () {
   // 移动端输入时隐藏底部
   if (/(iPhone|iPod|iOS|Android)/i.test(navigator.userAgent)) {
     $('input').focus(function () {
-      console.log(123)
       $('footer').hide()
     }).blur(function () {
       $('footer').show()
