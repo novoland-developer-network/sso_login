@@ -26,7 +26,7 @@ div.form-box {
 
 input {
     display: block;
-    width: calc(100% - 1rem);
+    width: calc(100% - 1.7rem);
     font-size: .2rem;
     padding: .1rem;
     margin: 0 auto;
@@ -50,11 +50,11 @@ input:-webkit-autofill {
     box-shadow: 0 0 0 10rem rgb(255, 195, 0) inset !important;
 }
 
-/*@media screen and (max-width: 37.5rem) {*/
-/*    input {*/
-/*        font-size: .15rem;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 36rem) {
+    input {
+        width: calc(100% - .8rem) !important;
+    }
+}
 
 button {
     font-size: .2rem !important;

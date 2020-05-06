@@ -51,7 +51,7 @@ footer a {
     color: #008000;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 36rem) {
     .mobile-xxx {
         display: block;
     }
