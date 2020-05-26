@@ -1,5 +1,5 @@
 $(function () {
-  let message = $(".message").remove()
+  let message = $(".message").show().remove()
 
   $("form").submit(function () {
     const name_input = $("#username")

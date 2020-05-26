@@ -111,4 +111,5 @@ button.btn {
     background-color: darkorange;
     font-size: .15rem !important;
     text-align: center;
+    display: none;
 }
