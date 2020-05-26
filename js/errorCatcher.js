@@ -1,19 +1,21 @@
 $(function () {
   let message = $(".message").show().remove()
-
+  
   $("form").submit(function () {
     const name_input = $("#username")
     const name = $.trim(name_input.val())
-
-    if (name === "" || name === null) {
-      showTip("请输入有效的邮箱、手机号或用户名")
-      name_input.trigger("focus")
-
-      return false
+    
+    if (name !== "" && name !== null) {
+      return true
     }
-    return true
+    
+    showTip("请输入有效的邮箱、手机号或用户名")
+    name_input.trigger("focus")
+    
+    return false
+    
   })
-
+  
   /**
    * 显示提示框
    * @param msg
@@ -23,7 +25,7 @@ $(function () {
     message.text(msg)
     message.addClass("ms-motion-slideUpIn")
     $(".form-field").before(message)
-
+    
     if (autoHide) {
       setTimeout(function () {
         message.removeClass("ms-motion-slideUpIn").
@@ -34,5 +36,5 @@ $(function () {
       }, 3000)
     }
   }
-
+  
 })
