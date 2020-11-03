@@ -1,7 +1,8 @@
 #! /bin/bash
 
 docker run -it --rm \
--v $HOME/.ssh/id_rsa:/root/.ssh/id_rsa \
--v $(pwd):/srv/www \
-$* \
-sso_login bash
+	-v $HOME/.ssh/id_rsa:/root/.ssh/id_rsa \
+	-v $(pwd):/srv/www \
+	-p 8080:8080 \
+	$* \
+	sso_login:latest bash

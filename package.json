@@ -13,12 +13,14 @@
     "gen": "npx plop"
   },
   "dependencies": {
+    "@fluentui/react": "^7.149.3",
+    "@types/styled-components": "^5.1.4",
+    "office-ui-fabric-react": "^7.0.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "office-ui-fabric-react": "^7.0.0"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "just-stack-react": "^1.0.0",
-    "just-scripts": "^0.27.0"
+    "just-scripts": "^0.27.0",
+    "just-stack-react": "^1.0.0"
   }
 }

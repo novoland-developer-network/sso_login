@@ -27,5 +27,10 @@
     <orderEntry type="library" name="loaders-0.1.2" level="application" />
     <orderEntry type="library" name="loaders-0.1.2.css" level="application" />
     <orderEntry type="library" name="darkmode-js@1.5.5" level="application" />
+    <orderEntry type="library" name="normalize" level="application" />
+    <orderEntry type="library" name="fabric" level="application" />
+    <orderEntry type="library" name="loaders-0.1.2" level="application" />
+    <orderEntry type="library" name="jquery-3.5" level="application" />
+    <orderEntry type="library" name="loaders-0.1.2.css" level="application" />
   </component>
 </module>
